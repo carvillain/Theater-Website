@@ -1,0 +1,111 @@
+
+.head{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20px;
+    padding: 20px;
+    align-items:flex-start;
+    background-color: black;
+    color: white;
+}
+
+.featured{
+    display:flex;
+    flex-direction: column;
+    background-image: url('../images/seats.JPG');
+    background-size: cover;
+    color: white;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+
+.featured_text{
+    text-align: center;
+}
+
+.mid{
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.listings{
+    display: flex;
+    justify-content: space-between;
+    height: 125px;
+    margin: 20px;
+    align-items: center;
+}
+
+.month{
+    display: flex;
+    background-color: #F7F7F7;
+    border: 1px solid black;
+    align-items: center;
+    height: 20px;
+    padding-left: 15px;
+}
+
+.raisin > div{
+    padding-bottom: 10px;
+}
+
+.raisinimg{
+    height: 100%;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.date{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.address{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.price{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.read{
+    background-color: #EBB625;
+    height: 50px;
+    color: white;
+    border-radius: 10%;
+    border: 1px solid black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-gap: 30px;
+    padding: 50px;
+}
+
+.foot{
+    background-color: black;
+    color: white;
+}
+
+.big{
+    font-size: 40px;
+}
+
+.map{
+    width: 80%;
+}
+
+.ankle > div{
+    margin-bottom: 20px;
+}
